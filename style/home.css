@@ -1,0 +1,13 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 300px 0;
+  margin: -10px -10px 0 -10px;
+}
+
+
+#matryoshka {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
