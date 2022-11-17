@@ -1,5 +1,8 @@
 .body-container {
   width: 100%;
-  border: 1px solid red;
-  height: 1000px;
+  margin-top: 55px;
+  text-align: center;
+}
+.header-body h1 {
+  font-size: 25px;
 }
