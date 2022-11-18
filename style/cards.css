@@ -19,10 +19,12 @@
 /* Product cards */
 
 .all-products {
+  border: 1px solid red;
+  justify-items: center;
   display: grid;
   width: 90vw;
   margin: 0 auto;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 .products {
   width: 150px;
@@ -35,11 +37,18 @@
   font-size: 12px;
 }
 
+@media screen and (min-width: 540px) {
+  .all-products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 @media screen and (min-width: 740px) {
   .all-products {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
 
 @media screen and (min-width: 900px) {
   .all-products {
