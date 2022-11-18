@@ -46,6 +46,12 @@
   background-color: yellowgreen;
   border-radius: 0 0 15px 15px;
 }
+.shop {
+  margin-top: 60px;
+}
+.shop-text {
+  margin-bottom: 70px;
+}
 .shop-view {
   width: 100vw;
   height: 1000px;
