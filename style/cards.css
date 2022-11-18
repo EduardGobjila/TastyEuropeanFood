@@ -8,10 +8,15 @@
   font-size: 25px;
 }
 .header-body {
-  width: 100%;
   margin: 0 auto;
+  background-color: orange;
+  width: 90%;
+  border-radius: 40px;
+  padding-top: 20px;
 }
-
+.header-st {
+  margin-top: 50px;
+}
 .body-banner {
   margin-top: 75px;
 }
@@ -19,7 +24,6 @@
 /* Product cards */
 
 .all-products {
-  border: 1px solid red;
   justify-items: center;
   display: grid;
   width: 90vw;
@@ -29,12 +33,18 @@
 .products {
   width: 150px;
   height: 300px;
+  /* border: 1px solid green; */
+  margin-top: 20px;
 }
 .products h3 {
   font-size: 15px;
 }
 .products p {
   font-size: 12px;
+}
+.info-container {
+  background-color: yellowgreen;
+  border-radius: 0 0 15px 15px;
 }
 
 @media screen and (min-width: 540px) {
@@ -47,11 +57,19 @@
   .all-products {
     grid-template-columns: repeat(4, 1fr);
   }
+
 }
 
 
 @media screen and (min-width: 900px) {
   .all-products {
     grid-template-columns: repeat(5, 1fr);
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .all-products {
+    grid-template-columns: repeat(6, 1fr);
   }
 }
