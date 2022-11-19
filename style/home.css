@@ -2,7 +2,7 @@
   font-family: 'Kanit', sans-serif;
 }
 .header {
-  width: 100%;
+  width: 100vw;
 }
 .banner {
   background-size: cover;
