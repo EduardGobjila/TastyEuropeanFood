@@ -20,6 +20,11 @@
 .body-banner {
   margin-top: 75px;
 }
+.header-p,
+.header-st {
+  width: 90%;
+  margin: 0 auto;
+}
 
 /* Product cards */
 
@@ -47,15 +52,14 @@
   border-radius: 0 0 15px 15px;
 }
 .shop {
-  margin-top: 60px;
-  margin: 0 auto;
+  margin-top: 160px;
 }
 .shop-text {
   margin-bottom: 70px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 .shop-view {
-  width: 90vw;
+  width: 85vw;
   height: 650px;
   margin: 0 auto;
 }
