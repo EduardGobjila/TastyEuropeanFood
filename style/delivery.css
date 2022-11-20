@@ -1,0 +1,36 @@
+.delivery-card {
+  width: 85vw;
+  background-color: orange;
+  margin: 100px auto;
+  border-radius: 44px;
+}
+.delivery-options {
+  width: 40%;
+  margin: 50px auto;
+  border: 1px solid red;
+}
+.all-options {
+  display: flex;
+}
+#delivery-option-image {
+  width: 150px;
+}
+
+@media screen and (max-width: 940px) {
+  .all-options {
+    display: inline;
+  }
+
+  #delivery-option-image {
+    width: 100px;
+  }
+
+  .delivery-options {
+    width: 90%;
+  }
+
+}
+
+* {
+  border: 1px solid red;
+}
