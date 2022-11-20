@@ -7,7 +7,7 @@
 .delivery-options {
   width: 40%;
   margin: 50px auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .all-options {
   display: flex;
