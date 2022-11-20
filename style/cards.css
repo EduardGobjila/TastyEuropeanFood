@@ -99,7 +99,4 @@ iframe {
     grid-template-columns: repeat(6, 1fr);
   }
 
-  .products {
-    width: 220px;
-  }
 }
