@@ -8,7 +8,13 @@
 .delivery-options {
   width: 40%;
   margin: 50px auto;
-  /* border: 1px solid red; */
+  font-size: 22px;
+  text-align: center;
+  padding: 15px;
+}
+ol {
+  text-align: center;
+  padding-right: 13px;
 }
 .all-options {
   display: flex;
@@ -29,12 +35,9 @@
     display: inline;
   }
 
-  #delivery-option-image {
-    width: 100px;
-  }
-
   .delivery-options {
     width: 90%;
+    font-size: 16px;
   }
 
 }
