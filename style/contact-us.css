@@ -42,10 +42,3 @@ iframe {
 #us {
   color: greenyellow;
 }
-
-@media screen and (min-width: 650px) {
-  .category {
-    display: flex;
-    justify-content: space-around;
-  }
-}
