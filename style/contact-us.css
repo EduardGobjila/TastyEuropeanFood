@@ -1,0 +1,51 @@
+.contact-us {
+  width: 100%;
+  margin: 50px auto;
+}
+.contact-info {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+}
+.contact-info a {
+  color: orange;
+}
+.hours {
+  width: 100%;
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+}
+.first-hour {
+  padding-top: 40px;
+}
+.address {
+  width: 100%;
+  margin-top: 50px;
+}
+.address p {
+  padding-top: 20px;
+}
+map {
+  width: 100%;
+  margin: 50px auto;
+}
+.map-info {
+  width: 90%;
+  margin: 30px auto;
+}
+iframe {
+  height: 500px;
+  width: 100%;
+}
+
+#us {
+  color: greenyellow;
+}
+
+@media screen and (min-width: 650px) {
+  .category {
+    display: flex;
+    justify-content: space-around;
+  }
+}
