@@ -1,8 +1,9 @@
 .delivery-card {
-  width: 85vw;
-  background-color: orange;
+  width: 100%;
+  background-color: rgb(53, 169, 97);
   margin: 100px auto;
   border-radius: 44px;
+  color: white;
 }
 .delivery-options {
   width: 40%;
@@ -12,8 +13,15 @@
 .all-options {
   display: flex;
 }
-#delivery-option-image {
-  width: 150px;
+.option {
+  font-size: 50px;
+  color: rgb(149, 59, 59);
+}
+#phone {
+  color: black;
+}
+#delivery {
+  padding-top: 55px;
 }
 
 @media screen and (max-width: 940px) {
