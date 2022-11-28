@@ -6,6 +6,15 @@
 }
 #promotion-image {
   width: 500px;
+  border: 2px solid black;
+}
+.promotion-info-card {
+  width: 100%;
+  margin: 40px auto;
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+  padding: 40px;
 }
 
 @media screen and (max-width: 650px) {
@@ -17,11 +26,17 @@
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1060px) {
   .promotion-image-card {
     display: block;
   }
   #promotion-image {
     width: 350px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1061px) {
+  .promotion-info-card {
+    width: 88%;
   }
 }

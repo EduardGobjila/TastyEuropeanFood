@@ -49,6 +49,9 @@ li {
   justify-content: center;
   align-items: center;
 }
+#card-color {
+  color: greenyellow;
+}
 
 @media screen and (min-width: 700px) {
   .category {
