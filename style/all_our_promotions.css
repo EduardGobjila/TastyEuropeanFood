@@ -1,0 +1,27 @@
+.promotion-image-card {
+  width: 100%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-around;
+}
+#promotion-image {
+  width: 500px;
+}
+
+@media screen and (max-width: 650px) {
+  .promotion-image-card {
+    display: block;
+  }
+  #promotion-image {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .promotion-image-card {
+    display: block;
+  }
+  #promotion-image {
+    width: 350px;
+  }
+}
