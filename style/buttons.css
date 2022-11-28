@@ -34,6 +34,8 @@
   justify-content: space-around;
 }
 
-@media screen and (max-width: 440px) {
-
+@media screen and (min-width: 440px) {
+  .button {
+    display: block;
+  }
 }
