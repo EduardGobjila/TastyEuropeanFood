@@ -33,10 +33,10 @@
   display: grid;
   width: 90vw;
   margin: 0 auto;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
 }
 .products {
-  width: 150px;
+  width: 300px;
   height: 300px;
   margin-top: 20px;
 }
@@ -77,13 +77,19 @@ iframe {
 
 @media screen and (min-width: 540px) {
   .all-products {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .products {
+    width: 200px;
   }
 }
 
 @media screen and (min-width: 740px) {
   .all-products {
     grid-template-columns: repeat(4, 1fr);
+  }
+  .products {
+    width: 150px;
   }
 
 }
