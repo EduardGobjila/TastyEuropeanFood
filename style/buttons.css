@@ -28,3 +28,12 @@
   border-radius: 9px;
   padding: 10px;
 }
+
+.button {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 440px) {
+
+}
