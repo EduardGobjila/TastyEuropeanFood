@@ -11,4 +11,13 @@
 
 .nav-link {
   font-size: 18px;
+
+}
+
+.active {
+  background-color: greenyellow !important;
+  border-radius: 20px;
+}
+.navbar {
+  text-align: center;
 }
