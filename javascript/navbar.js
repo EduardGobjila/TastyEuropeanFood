@@ -11,3 +11,16 @@ window.addEventListener('scroll', function() {
 
 
 // when current page change the color of the text on tha navabar
+
+const navItem = document.querySelectorAll('.nav-item')
+
+// navItem.forEach(item => {
+  if (window.location.hash === '#delivery') {
+   navItem[5].classList.add('active')
+   navItem[0].classList.remove('active')
+   navItem[1].classList.remove('active')
+   navItem[2].classList.remove('active')
+   navItem[3].classList.remove('active')
+   navItem[4].classList.remove('active')
+  }
+// })
