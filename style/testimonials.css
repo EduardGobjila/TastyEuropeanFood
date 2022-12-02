@@ -1,0 +1,49 @@
+#reviews {
+  width: 90vw;
+  margin: 60px auto;
+}
+
+.testimonials {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.fa-star {
+  color: #fbbc04;
+  font-size: 20px;
+  padding: 0;
+  margin: 2px;
+}
+.review-author h4 {
+  color: #88b06a;
+  font-weight: 900;
+}
+.reviews-card {
+  padding: 20px;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.stars,
+.review-author {
+  text-align: start;
+}
+
+@media screen and (max-width: 850px) {
+  .testimonials {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 851px) {
+  .testimonials {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1251px) {
+  .testimonials {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
