@@ -1,5 +1,11 @@
 .container-products {
   text-align: center;
   margin: 100px auto;
-  width: 99vw;
+  /* width: 99vw; */
+}
+
+.products-all {
+  border: 1px solid red;
+  margin: 60px auto;
+  width: 90%;
 }
