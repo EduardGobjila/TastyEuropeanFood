@@ -13,3 +13,6 @@
   border-radius: 20px;
   margin: 10px;
 }
+#carousel-item-info {
+  background-color: orange !important;
+}
