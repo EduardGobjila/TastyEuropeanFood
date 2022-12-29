@@ -4,3 +4,42 @@
   border: 1px solid red;
   margin-top: 50px;
 }
+.products-all {
+  width: 90%;
+  border: 1px solid red ;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media screen and (min-width: 540px) {
+  .all-products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .products {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 740px) {
+  .all-products {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .products {
+    width: 150px;
+  }
+
+}
+
+
+@media screen and (min-width: 900px) {
+  .all-products {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .all-products {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+}
