@@ -12,6 +12,24 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+.buttons-page {
+  width: 90%;
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+}
+.button {
+  margin: 20px;
+  background-color: greenyellow;
+  border: none;
+  border: 1px solid green;
+  border-radius: 10px 0 10px 0;
+  color: green;
+}
+.current-page {
+  background-color: gold;
+  transform: scale(1.3);
+}
 @media screen and (min-width: 540px) {
   .products-all{
     grid-template-columns: repeat(2, 1fr);
