@@ -1,3 +1,5 @@
 .current-item-category {
-
+ background-color: rgb(206, 237, 144);
+ color: black;
+ /* border: 2px solid rgb(57, 123, 57); */
 }
