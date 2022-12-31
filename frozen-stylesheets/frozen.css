@@ -12,19 +12,21 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.buttons-page {
+.buttons-selection-container{
   width: 90%;
   display: flex;
   margin: 20px auto;
   justify-content: center;
 }
-.button {
+.button-selection {
   margin: 20px;
   background-color: greenyellow;
   border: none;
   border: 1px solid green;
   border-radius: 10px 0 10px 0;
   color: green;
+  text-align: center;
+  width: 20px;
 }
 .current-page {
   background-color: gold;
