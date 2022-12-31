@@ -8,6 +8,7 @@
   width: 100%;
   /* border: 1px solid red; */
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 .products-all {
   width: 90%;
@@ -16,6 +17,15 @@
   margin: 40px auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+.stock-info-container {
+  text-align: center;
+  margin: 50px 0 150px 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#stock-highlight {
+  color: orange;
 }
 @media screen and (min-width: 540px) {
   .products-all{
