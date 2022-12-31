@@ -15,6 +15,10 @@
   text-align: center;
   width: 20px;
 }
+.button-selection:hover {
+  text-decoration: none;
+  background-color: rgb(250, 239, 36);
+}
 .current-page {
   background-color: gold;
   transform: scale(1.3);
